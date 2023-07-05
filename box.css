@@ -1,0 +1,73 @@
+#box {
+
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 10px 30px;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    
+}  
+    
+
+div {
+
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 10px 30px;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+   
+   
+}
+
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 90%;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 85%;
+        top: 65%;
+    }
+
+    75% {
+        background-color: green;
+        left: 5%;
+        top: 65%;
+    }
+
+    100% {
+        background-color: rgb(255, 0, 212);
+        left: 0px;
+        top: 0px;
+    }
+
+}
